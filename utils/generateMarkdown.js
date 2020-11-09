@@ -10,13 +10,13 @@ ${data.badge}
 ${data.description}
 
 ## Table of Contents
-- Installation Instructions
-- Usage Information
-- License
-- Contribution Guidelines
-- Test Instructions
-- Questions
-- Screenshots
+- [Installation Instructions](##installation-instructions)
+- [Usage Information](##usage-information)
+- [License](##license)
+- [Contribution Guidelines](##contribution-guidelines)
+- [Test Instructions](##test-instructions)
+- [Questions](##questions)
+- [Screenshots](##screenshots)
 
 ## Installation Instructions
 
