@@ -1,5 +1,6 @@
 const inq = require("inquirer");
 const mark = require("./utils/generateMarkdown");
+const fs = require("fs");
 
 // array of questions for user
 const questions = [
@@ -78,7 +79,9 @@ const questions = [
 inq.prompt(questions).then((res) => {
     // console.log(res);
     const returnMD = mark.generateMarkdown(res);
-    console.log(returnMD);
+    // console.log(returnMD);
+
+    fs.writeFileSync("genReadme/README.md", returnMD, "utf8");
 });
 
 // function to write README file

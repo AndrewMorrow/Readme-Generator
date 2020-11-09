@@ -8,7 +8,7 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents
-- Installation
+- Installation Instructions
 - Usage Information
 - License
 - Contribution Guidelines
@@ -16,7 +16,7 @@ ${data.description}
 - Questions
 - Screenshots
 
-## Installation
+## Installation Instructions
 
 ${data.installation}
 
