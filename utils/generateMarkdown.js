@@ -39,9 +39,9 @@ ${data.testing}
 ## Questions
 If there are further questions please contact me with the following.
 
-Github: ${githubUsername} - ${githubLink}
+Github: ${data.githubUsername} - ${data.githubLink}
 
-Email: ${email}
+Email: ${data.email}
 
 ## Screenshots
 
@@ -49,4 +49,4 @@ Email: ${email}
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = { generateMarkdown };
