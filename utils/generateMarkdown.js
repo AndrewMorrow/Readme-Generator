@@ -3,6 +3,8 @@ function generateMarkdown(data) {
     return `
 # ${data.title}
 
+${data.badge}
+
 ## Description
 
 ${data.description}
@@ -39,7 +41,7 @@ ${data.testing}
 ## Questions
 If there are further questions please contact me with the following.
 
-Github: ${data.githubUsername} - ${data.githubLink}
+![GitHub Logo](images/githubLogo.png) ${data.githubUsername} - [Github](${data.githubLink})
 
 Email: ${data.email}
 
