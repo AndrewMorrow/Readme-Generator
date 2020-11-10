@@ -41,7 +41,7 @@ ${data.testing}
 ## Questions
 If there are further questions please contact me with the following.
 
-<img src = "images/githubLogo.png" alt= 'Github Logo' width="30px" height="30px"> ${data.githubUsername} - [Github Profile](${data.githubLink})
+<img src = "images/githubLogo.png" alt= 'Github Logo' width="20px" height="20px"> ${data.githubUsername} - [Github Profile](${data.githubLink})
 
 Email: ${data.email}
 

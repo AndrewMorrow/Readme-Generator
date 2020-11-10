@@ -106,34 +106,34 @@ function checkLicense(res) {
             res.badge = `<img src = "https://img.shields.io/badge/license-Apache-blue">`;
             break;
         case "GNU General Public License v3.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU v3.0-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_v3.0-blue">`;
             break;
         case "MIT License":
             res.badge = `<img src = "https://img.shields.io/badge/license-MIT-green">`;
             break;
         case 'BSD 2-Clause "Simplified" License':
-            res.badge = `<img src = "https://img.shields.io/badge/license-BSD 2-Clause-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-BSD_2_Clause-blue">`;
             break;
         case 'BSD 3-Clause "New" or "Revised" License':
-            res.badge = `<img src = "https://img.shields.io/badge/license-BSD 3-Clause-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-BSD_3_Clause-blue">`;
             break;
         case "Boost Software License 1.0":
             res.badge = `<img src = "https://img.shields.io/badge/license-Boost-green">`;
             break;
         case "Creative Commons Zero v1.0 Universal":
-            res.badge = `<img src = "https://img.shields.io/badge/license-Creative Commons Zero-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-Creative_Commons_Zero-blue">`;
             break;
         case "Eclipse Public License 2.0":
             res.badge = `<img src = "https://img.shields.io/badge/license-Eclipse-blue">`;
             break;
         case "GNU Affero General Public License v3.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU Affero-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_Affero-blue">`;
             break;
         case "GNU General Public License v2.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU General v2.0-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_General_v2.0-blue">`;
             break;
         case "GNU Lesser General Public License v2.1":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU Lesser-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_Lesser-blue">`;
             break;
         case "Mozilla Public License 2.0":
             res.badge = `<img src = "https://img.shields.io/badge/license-Mozilla-blue">`;

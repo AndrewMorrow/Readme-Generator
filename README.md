@@ -1,11 +1,11 @@
 
-# dwa
+# Readme Generator
 
-<img src = "https://img.shields.io/badge/license-Apache-blue">
+<img src = "https://img.shields.io/badge/license-Creative_Commons_Zero-blue">
 
 ## Description
 
-daw
+awdaw
 
 ## Table of Contents
 - [Installation Instructions](##-installation-instructions)
@@ -18,30 +18,30 @@ daw
 
 ## Installation Instructions
 
-daw
+dawdaw
 
 ## Usage Information
 
-
+awdawdawd
 
 ## License
 
-This project is utilizing the Apache License 2.0
+This project is utilizing the Creative Commons Zero v1.0 Universal
 
 ## Contribution Guidelines
 
-daw
+dawdawdaw
 
 ## Test Instructions
 
-
+awdawdgrew
 
 ## Questions
 If there are further questions please contact me with the following.
 
-<img src = "images/githubLogo.png" alt= 'Github Logo' width="30px" height="30px">  - [Github Profile]()
+<img src = "images/githubLogo.png" alt= 'Github Logo' width="20px" height="20px"> AndrewMorrow - [Github Profile](https://github.com/AndrewMorrow)
 
-Email: 
+Email: beardedmongo@gmail.com
 
 ## Screenshots
 
