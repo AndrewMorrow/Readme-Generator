@@ -1,20 +1,20 @@
-
 # Readme Generator
 
-<img src = "https://img.shields.io/badge/license-BSD 2-Clause-blue">
+<img src = "https://img.shields.io/badge/license-BSD2-Clause-blue">
 
 ## Description
 
 This is a modular program that generates a high quality README.md file from user input.
 
 ## Table of Contents
-- [Installation Instructions](##-installation-instructions)
-- [Usage Information](##-usage-information)
-- [License](##-license)
-- [Contribution Guidelines](##-contribution-guidelines)
-- [Test Instructions](##-test-instructions)
-- [Questions](##-questions)
-- [Screenshots](##-screenshots)
+
+-   [Installation Instructions](##-installation-instructions)
+-   [Usage Information](##-usage-information)
+-   [License](##-license)
+-   [Contribution Guidelines](##-contribution-guidelines)
+-   [Test Instructions](##-test-instructions)
+-   [Questions](##-questions)
+-   [Screenshots](##-screenshots)
 
 ## Installation Instructions
 
@@ -30,13 +30,10 @@ This project is utilizing the BSD 2-Clause "Simplified" License
 
 ## Contribution Guidelines
 
-
-
 ## Test Instructions
 
-
-
 ## Questions
+
 If there are further questions please contact me with the following.
 
 <img src = "images/githubLogo.png" alt= 'Github Logo' style= "width:10px;height:10px"> AndrewMorrow - [Github Profile](https://github.com/AndrewMorrow)
