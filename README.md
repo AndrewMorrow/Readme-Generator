@@ -2,22 +2,23 @@
 # Readme Generator
 
 
-            GNU GENERAL PUBLIC LICENSE
-              Version 3, 29 June 2007
-Copyright :tm: 2020, Andrew Morrow All rights reserved.
+                    Apache License
+                Version 2.0, January 2004
+            http://www.apache.org/licenses/
+Copyright (C) 2020, Andrew Morrow
 
 ## Description
 
 This is a modular program that generates a high quality README.md file from user input.
 
 ## Table of Contents
-- [Installation Instructions](##installation-instructions)
-- [Usage Information](##usage-information)
-- [License](##license)
-- [Contribution Guidelines](##contribution-guidelines)
-- [Test Instructions](##test-instructions)
-- [Questions](##questions)
-- [Screenshots](##screenshots)
+- [Installation Instructions](##-installation-instructions)
+- [Usage Information](##-usage-information)
+- [License](##-license)
+- [Contribution Guidelines](##-contribution-guidelines)
+- [Test Instructions](##-test-instructions)
+- [Questions](##-questions)
+- [Screenshots](##-screenshots)
 
 ## Installation Instructions
 
@@ -29,11 +30,11 @@ The user will be prompted with questions about their project. After all of the u
 
 ## License
 
-This project is utilizing the GNU General Public License v3.0
+This project is utilizing the Apache License 2.0
 
 ## Contribution Guidelines
 
-This is a fully open source project, pull requests will be viewed and implemented if useful.
+
 
 ## Test Instructions
 

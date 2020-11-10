@@ -108,63 +108,63 @@ function checkLicense(res) {
                     Apache License
                 Version 2.0, January 2004
             http://www.apache.org/licenses/
-Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "GNU General Public License v3.0":
             res.badge = `
             GNU GENERAL PUBLIC LICENSE
               Version 3, 29 June 2007
-Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "MIT License":
             res.badge = `   
             MIT License
-Copyright :tm: ${currYear} ${res.username}`;
+Copyright (C) ${currYear} ${res.username}`;
             break;
         case 'BSD 2-Clause "Simplified" License':
             res.badge = `
             BSD 2-Clause License
-Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+Copyright (C) ${currYear}, ${res.username}`;
             break;
         case 'BSD 3-Clause "New" or "Revised" License':
             res.badge = `BSD 2-Clause License
-    Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+    Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "Boost Software License 1.0":
             res.badge = `Boost Software License - Version 1.0 - August 17th, 2003
-                   Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+                   Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "Creative Commons Zero v1.0 Universal":
             res.badge = `Creative Commons Legal Code
                         CC0 1.0 Universal
-    Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+    Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "Eclipse Public License 2.0":
             res.badge = `Eclipse Public License - v 2.0
-    Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+    Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "GNU Affero General Public License v3.0":
             res.badge = `GNU AFFERO GENERAL PUBLIC LICENSE
                         Version 3, 19 November 2007
-        Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+        Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "GNU General Public License v2.0":
             res.badge = `GNU GENERAL PUBLIC LICENSE
                         Version 2, June 1991
-        Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+        Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "GNU Lesser General Public License v2.1":
             res.badge = `GNU LESSER GENERAL PUBLIC LICENSE
                         Version 2.1, February 1999
-        Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+        Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "Mozilla Public License 2.0":
             res.badge = `Mozilla Public License Version 2.0
-        Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+        Copyright (C) ${currYear}, ${res.username}`;
             break;
         case "The Unlicense":
             res.badge = `The Unlicense
-Copyright :tm: ${currYear}, ${res.username} All rights reserved.`;
+Copyright (C) ${currYear}, ${res.username}`;
             break;
     }
 
