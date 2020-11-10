@@ -130,7 +130,7 @@ function checkLicense(res) {
             res.badge = `<img src = "https://img.shields.io/badge/license-GNU_Affero-blue">`;
             break;
         case "GNU General Public License v2.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_General_v2.0-blue">`;
+            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_General-blue">`;
             break;
         case "GNU Lesser General Public License v2.1":
             res.badge = `<img src = "https://img.shields.io/badge/license-GNU_Lesser-blue">`;

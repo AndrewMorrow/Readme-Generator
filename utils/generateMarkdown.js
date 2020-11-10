@@ -3,20 +3,18 @@ function generateMarkdown(data) {
     return `
 # ${data.title}
 
-${data.badge}
-
 ## Description
 
 ${data.description}
 
 ## Table of Contents
-- [Installation Instructions](##-installation-instructions)
-- [Usage Information](##-usage-information)
-- [License](##-license)
-- [Contribution Guidelines](##-contribution-guidelines)
-- [Test Instructions](##-test-instructions)
-- [Questions](##-questions)
-- [Screenshots](##-screenshots)
+- [Installation Instructions](#installation-instructions)
+- [Usage Information](#usage-information)
+- [License](#license)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Test Instructions](#test-instructions)
+- [Questions](#questions)
+- [Screenshots](#screenshots)
 
 ## Installation Instructions
 
@@ -24,6 +22,7 @@ ${data.installation}
 
 ## Usage Information
 
+${data.badge}
 ${data.usage}
 
 ## License
@@ -41,9 +40,9 @@ ${data.testing}
 ## Questions
 If there are further questions please contact me with the following.
 
-<img src = "images/githubLogo.png" alt= 'Github Logo' width="20px" height="20px"> ${data.githubUsername} - [Github Profile](${data.githubLink})
+<img src = "images/githubLogoCrop.png" alt= 'Github Logo' width="20px" height="20px"> ${data.githubUsername} - [Github Profile](${data.githubLink})
 
-Email: ${data.email}
+Email: <${data.email}>
 
 ## Screenshots
 
