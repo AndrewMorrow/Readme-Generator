@@ -41,13 +41,13 @@ ${data.testing}
 ## Questions
 If there are further questions please contact me with the following.
 
-![GitHub Logo](images/githubLogo.png) ${data.githubUsername} - [Github](${data.githubLink})
+<img src = "images/githubLogo.png" alt= 'Github Logo' style= "width:10px;height:10px"> ${data.githubUsername} - [Github Profile](${data.githubLink})
 
 Email: ${data.email}
 
 ## Screenshots
 
-<img src = "${data.image}">
+<img src = "${data.image}" alt= 'Screenshot of the program' style= "width:10px;height:10px">
 `;
 }
 
