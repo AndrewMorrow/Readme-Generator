@@ -23,6 +23,7 @@ ${data.installation}
 ## Usage Information
 
 ${data.badge}
+
 ${data.usage}
 
 ## License
@@ -40,7 +41,7 @@ ${data.testing}
 ## Questions
 If there are further questions please contact me with the following.
 
-<img src = "images/githubLogoCrop.png" alt= 'Github Logo' width="15px" height="15px"> ${data.githubUsername} - [Github Profile](${data.githubLink})
+<img src = "images/githubLogoCrop.png" alt= 'Github Logo' width="15px" height="15px"> ${data.githubUsername} - [Github Profile](${data.githubLink}){:target="_blank"}
 
 Email: ${data.email}
 
