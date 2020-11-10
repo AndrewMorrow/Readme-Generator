@@ -36,7 +36,7 @@ This project is utilizing the BSD 2-Clause "Simplified" License
 
 If there are further questions please contact me with the following.
 
-<img src = "images/githubLogo.png" alt= 'Github Logo' style= "width:10px;height:10px"> AndrewMorrow - [Github Profile](https://github.com/AndrewMorrow)
+<img src = "images/githubLogo.png" alt= 'Github Logo' width="10px" height="10px"> AndrewMorrow - [Github Profile](https://github.com/AndrewMorrow)
 
 Email: beardedmongo@gmail.com
 
