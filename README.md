@@ -1,45 +1,48 @@
-# Readme Generator
 
-<img src = "https://img.shields.io/badge/license-BSD2-Clause-blue">
+# dwa
+
+<img src = "https://img.shields.io/badge/license-Apache-blue">
 
 ## Description
 
-This is a modular program that generates a high quality README.md file from user input.
+daw
 
 ## Table of Contents
-
--   [Installation Instructions](##-installation-instructions)
--   [Usage Information](##-usage-information)
--   [License](##-license)
--   [Contribution Guidelines](##-contribution-guidelines)
--   [Test Instructions](##-test-instructions)
--   [Questions](##-questions)
--   [Screenshots](##-screenshots)
+- [Installation Instructions](##-installation-instructions)
+- [Usage Information](##-usage-information)
+- [License](##-license)
+- [Contribution Guidelines](##-contribution-guidelines)
+- [Test Instructions](##-test-instructions)
+- [Questions](##-questions)
+- [Screenshots](##-screenshots)
 
 ## Installation Instructions
 
-The user will be prompted with questions about their project. After all of the user inputs are taken this will generate a README.md file in the genReadme folder. The user may then copy the file and use it in their project.
+daw
 
 ## Usage Information
 
-This is a fully open source project, pull requests will be viewed and implemented if useful.
+
 
 ## License
 
-This project is utilizing the BSD 2-Clause "Simplified" License
+This project is utilizing the Apache License 2.0
 
 ## Contribution Guidelines
 
+daw
+
 ## Test Instructions
 
-## Questions
 
+
+## Questions
 If there are further questions please contact me with the following.
 
-<img src = "images/githubLogo.png" alt= 'Github Logo' width="10px" height="10px"> AndrewMorrow - [Github Profile](https://github.com/AndrewMorrow)
+<img src = "images/githubLogo.png" alt= 'Github Logo' width="30px" height="30px">  - [Github Profile]()
 
-Email: beardedmongo@gmail.com
+Email: 
 
 ## Screenshots
 
-<img src = "undefined" alt= 'Screenshot of the program' style= "width:10px;height:10px">
+<img src = "undefined" alt= 'Screenshot of the program' width="30px" height="30px">
