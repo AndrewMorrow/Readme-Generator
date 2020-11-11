@@ -41,13 +41,9 @@ ${data.testing}
 ## Questions
 If there are further questions please contact me with the following.
 
-<img src = "images/githubLogoCrop.png" alt= 'Github Logo' width="15px" height="15px"> ${data.githubUsername} - [Github Profile](${data.githubLink}){:target="_blank"}
+<img src = "images/githubLogoCrop.png" alt= 'Github Logo' width="15px" height="15px"> ${data.githubUsername} - <a href="${data.githubLink}" target= "_blank">Github</a>
 
 Email: ${data.email}
-
-## Screenshots
-
-<img src = "${data.image}" alt= 'Screenshot of the program' width="30px" height="30px">
 `;
 }
 
