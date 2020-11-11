@@ -23,7 +23,10 @@ This application requires Node.js which can be downloaded <a href="https://nodej
 
 The user will be prompted with questions about their project. Once all of the user inputs are collected the program will generate a README.md file in the genReadme folder. The user may then copy the file to use in their own project.
 
-[![Demo Video](images/readmeGeneratorScreenshot.png)](https://drive.google.com/file/d/1x5BcrTCjW3sLW5Bx3zMJma0-R6iaTwAp/view)
+<img src = "images/readmeGeneratorScreenshot.png" alt= 'Screenshot of program' width="15px" height="15px">
+
+Click the image below to view the demo video!
+[![Demo Video](https://drive.google.com/file/d/1x5BcrTCjW3sLW5Bx3zMJma0-R6iaTwAp/view)](https://drive.google.com/file/d/1x5BcrTCjW3sLW5Bx3zMJma0-R6iaTwAp/view)
 
 ## License
 
