@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a modular program that generates a high quality README.md file from user input.
+This is a modular program that generates a high quality README.md file from user input. This readme was generated with this program so if the layout appeals to you then you are in the right place!
 
 ## Table of Contents
 
