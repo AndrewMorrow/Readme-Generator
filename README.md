@@ -12,7 +12,6 @@ This is a modular program that generates a high quality README.md file from user
 -   [Contribution Guidelines](#contribution-guidelines)
 -   [Test Instructions](#test-instructions)
 -   [Questions](#questions)
--   [Screenshots](#screenshots)
 
 ## Installation Instructions
 
@@ -23,6 +22,8 @@ This application requires Node.js which can be downloaded <a href="https://nodej
 <img src = "https://img.shields.io/badge/license-Apache-blue">
 
 The user will be prompted with questions about their project. Once all of the user inputs are collected the program will generate a README.md file in the genReadme folder. The user may then copy the file to use in their own project.
+
+[![Demo Video](images/readmeGeneratorScreenshot.png)](https://drive.google.com/file/d/1x5BcrTCjW3sLW5Bx3zMJma0-R6iaTwAp/view)
 
 ## License
 
