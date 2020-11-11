@@ -14,7 +14,6 @@ ${data.description}
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
 - [Questions](#questions)
-- [Screenshots](#screenshots)
 
 ## Installation Instructions
 
