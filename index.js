@@ -38,7 +38,7 @@ const questions = [
         name: "license",
         choices: [
             "None",
-            "Apache License 2.0",
+            "Apache License v2.0",
             "GNU General Public License v3.0",
             "MIT License",
             'BSD 2-Clause "Simplified" License',
@@ -97,52 +97,10 @@ function init() {
     });
 }
 
+// Takes in the license type and formats it for the badge
 function checkLicense(res) {
-    const currYear = new Date().getFullYear();
-    switch (res.license) {
-        case "None":
-            res.badge = `<img src = "https://img.shields.io/badge/license-None-inactive`;
-            break;
-        case "Apache License 2.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-Apache-blue">`;
-            break;
-        case "GNU General Public License v3.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_v3.0-blue">`;
-            break;
-        case "MIT License":
-            res.badge = `<img src = "https://img.shields.io/badge/license-MIT-green">`;
-            break;
-        case 'BSD 2-Clause "Simplified" License':
-            res.badge = `<img src = "https://img.shields.io/badge/license-BSD_2_Clause-blue">`;
-            break;
-        case 'BSD 3-Clause "New" or "Revised" License':
-            res.badge = `<img src = "https://img.shields.io/badge/license-BSD_3_Clause-blue">`;
-            break;
-        case "Boost Software License 1.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-Boost-green">`;
-            break;
-        case "Creative Commons Zero v1.0 Universal":
-            res.badge = `<img src = "https://img.shields.io/badge/license-Creative_Commons_Zero-blue">`;
-            break;
-        case "Eclipse Public License 2.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-Eclipse-blue">`;
-            break;
-        case "GNU Affero General Public License v3.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_Affero-blue">`;
-            break;
-        case "GNU General Public License v2.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_General-blue">`;
-            break;
-        case "GNU Lesser General Public License v2.1":
-            res.badge = `<img src = "https://img.shields.io/badge/license-GNU_Lesser-blue">`;
-            break;
-        case "Mozilla Public License 2.0":
-            res.badge = `<img src = "https://img.shields.io/badge/license-Mozilla-blue">`;
-            break;
-        case "The Unlicense":
-            res.badge = `<img src = "https://img.shields.io/badge/license-Unlicense-blue">`;
-            break;
-    }
+    let badgeFormat = res.license.split(" ").join("_");
+    res.badge = `<img src = "https://img.shields.io/badge/license-${badgeFormat}-blue`;
 }
 
 // function call to initialize program

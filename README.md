@@ -19,7 +19,7 @@ This application requires Node.js which can be downloaded <a href="https://nodej
 
 ## Usage Information
 
-<img src = "https://img.shields.io/badge/license-Apache-blue">
+<img src = "https://img.shields.io/badge/license-Apache_License_v2.0-blue">
 
 The user will be prompted with questions about their project. Once all of the user inputs are collected the program will generate a README.md file in the genReadme folder. The user may then copy the file to use in their own project.
 
