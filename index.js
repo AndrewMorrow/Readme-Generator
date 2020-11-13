@@ -37,6 +37,7 @@ const questions = [
         message: "What type of license does your project use if applicable:",
         name: "license",
         choices: [
+            "None",
             "Apache License 2.0",
             "GNU General Public License v3.0",
             "MIT License",
@@ -82,26 +83,26 @@ const questions = [
     },
 ];
 
-inq.prompt(questions).then((res) => {
-    // console.log(res);
-
-    const licBadge = checkLicense(res);
-    const returnMD = mark.generateMarkdown(res);
-    // console.log(returnMD);
-
-    // function to write README file
-    fs.writeFileSync("genReadme/README.md", returnMD, "utf8");
-});
-
 // function to initialize program
-// function init() {}
+function init() {
+    inq.prompt(questions).then((res) => {
+        // console.log(res);
 
-// function call to initialize program
-// init();
+        const licBadge = checkLicense(res);
+        const returnMD = mark.generateMarkdown(res);
+        // console.log(returnMD);
+
+        // function to write README file
+        fs.writeFileSync("genReadme/README.md", returnMD, "utf8");
+    });
+}
 
 function checkLicense(res) {
     const currYear = new Date().getFullYear();
     switch (res.license) {
+        case "None":
+            res.badge = `<img src = "https://img.shields.io/badge/license-None-inactive`;
+            break;
         case "Apache License 2.0":
             res.badge = `<img src = "https://img.shields.io/badge/license-Apache-blue">`;
             break;
@@ -143,3 +144,6 @@ function checkLicense(res) {
             break;
     }
 }
+
+// function call to initialize program
+init();
